@@ -1,3 +1,27 @@
 body {
-    background-color: #e3d5ca;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
+
+.navbar {
+    background-color: #153243;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    color: #EEF0EB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+   background-color: #B4B8AB;
+}
+
+.navbar a.current {
+    background-color: #284B63;
+}
+
