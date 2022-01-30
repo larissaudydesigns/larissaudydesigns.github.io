@@ -1,6 +1,12 @@
+.logo{
+    max-width: 18%;
+    height: auto;
+}
+
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    padding: .40%;
 }
 
 .navbar {
@@ -25,3 +31,25 @@ body {
     background-color: #284B63;
 }
 
+
+/* Featured Div */
+
+.featured h2{
+    text-align: center;
+    
+}
+.featured .img1 {
+    max-width:45%;
+    height:auto;
+}
+.featured .img2 {
+    max-width: 35.5%;
+}
+
+.featured .img3 {
+    max-width: 45%
+}
+
+.featured .img4 {
+    max-width: 27.5%;
+}
