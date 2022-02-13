@@ -38,18 +38,25 @@ body {
     text-align: center;
     
 }
-.featured .img1 {
-    max-width:45%;
-    height:auto;
-}
-.featured .img2 {
-    max-width: 35.5%;
+
+div .slide1{
+    display: flex;
+    justify-content: center;
 }
 
-.featured .img3 {
-    max-width: 45%
+div .slide2{
+    display: flex;
+    justify-content: center;
 }
 
-.featured .img4 {
-    max-width: 27.5%;
+div .slide3{
+    display: flex;
+    justify-content: center;
 }
+
+div .slide4{
+    display: flex;
+    justify-content: center;
+}
+
+

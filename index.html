@@ -10,7 +10,9 @@
 </head>
 
 <body>
+<header>
 <img class="logo" src="pictures/logo.png">
+</header>
 
 <div class = "navbar">
     <a class="current" href="index.html">Home</a>
@@ -21,12 +23,45 @@
 
 <div class = "featured">
 <h2>Featured Designs</h2>
-<img class="img1" src="pictures/Citylight_Poster.jpg">
-<img class="img2" src="pictures/Hanging-Wall-Sign-MockUp-3.jpg">
-<img class="img3" src="pictures/Typographic Posters 2.jpg">
-<img class="img4" src="pictures/frontcover.jpg">
+
+
+<div class="slideshow">
+    <div class="slide1">
+        <img class="mySlides" src="pictures/Citylight_Poster.jpg">
+    </div>
+    <div class="slide2">
+        <img class="mySlides" src="pictures/frontcover.jpg">
+    </div>
+    <div class="slide3">
+        <img class="mySlides" src="pictures/Hanging-Wall-Sign-MockUp-3.jpg">
+    </div>
+    <div class="slide4">
+        <img class="mySlides" src="pictures/Typographic Posters 2 .jpg">
+    </div>
 
 </div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 10000); // Change image every 2 seconds
+    }
+    </script>
+    
+  
+</div>
+
+
 
 </body>
 </html>
