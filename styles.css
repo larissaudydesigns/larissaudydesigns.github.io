@@ -3,7 +3,7 @@
     height: auto;
 }
 
-body {
+body  {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     padding: .40%;
@@ -61,11 +61,15 @@ div .slide4{
 
 /* gallary div */
 
-div.gallery {
-    margin: 5px;
+  div.gallery {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 300px;
+    height: auto;
   }
   
   div.gallery:hover {
@@ -78,6 +82,9 @@ div.gallery {
   }
   
   div.desc {
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
     text-align: center;
   }
