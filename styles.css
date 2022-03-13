@@ -88,3 +88,10 @@ div .slide4{
     padding-left: 15px;
     text-align: center;
   }
+
+
+.bistrocontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
