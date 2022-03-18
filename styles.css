@@ -90,8 +90,21 @@ div .slide4{
   }
 
 
-.bistrocontainer {
+.projectcontainer {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
+
+.description {
+    inline-size: 1610px;
+    overflow-wrap: normal;
+    font-size: x-large;
+    
+}
+
+.projectheading{
+    text-align: center;
+}
