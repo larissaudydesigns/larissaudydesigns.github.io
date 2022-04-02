@@ -114,3 +114,35 @@ div .slide4{
 .projectheading{
     text-align: center;
 }
+
+.aboutmecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.aboutmecontent{
+    inline-size: 1600px;
+}
+
+.contactcontainter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactinfo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.resume{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.contactheader{
+    text-align: center;
+}
