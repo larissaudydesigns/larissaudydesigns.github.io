@@ -115,6 +115,7 @@ div .slide4{
     text-align: center;
 }
 
+/* about me page */
 .aboutmecontainer{
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +126,7 @@ div .slide4{
     inline-size: 1600px;
 }
 
+/* contact page */
 .contactcontainter{
     display: flex;
     flex-wrap: wrap;
