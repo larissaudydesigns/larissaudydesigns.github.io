@@ -1,0 +1,150 @@
+.logo{
+    max-width: 18%;
+    height: auto;
+}
+
+body  {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: .40%;
+}
+
+.navbar {
+    background-color: #153243;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    color: #EEF0EB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+   background-color: #B4B8AB;
+}
+
+.navbar a.current {
+    background-color: #284B63;
+}
+
+
+/* Featured Div */
+
+.featured h2{
+    text-align: center;
+    
+}
+
+div .slide1{
+    display: flex;
+    justify-content: center;
+}
+
+div .slide2{
+    display: flex;
+    justify-content: center;
+}
+
+div .slide3{
+    display: flex;
+    justify-content: center;
+}
+
+div .slide4{
+    display: flex;
+    justify-content: center;
+}
+
+/* gallary div */
+
+  .gallerycontainer
+  {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  div.gallery {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+  }
+
+
+.projectcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.description {
+    inline-size: 1610px;
+    overflow-wrap: normal;
+    font-size: x-large;
+    
+}
+
+.projectheading{
+    text-align: center;
+}
+
+/* about me page */
+.aboutmecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.aboutmecontent{
+    inline-size: 1600px;
+}
+
+/* contact page */
+.contactcontainter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactinfo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.resume{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.contactheader{
+    text-align: center;
+}
